@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>kevin's website</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        div#bg{
+            width: 1050px;
+            height: 740px;
+            background: url(img/background.jpg);
+            margin:5px auto;
+        }
+        #title{
+            width: 1050px;
+            height: 60px;
+            background-color: rgb(51, 168, 45);
+            line-height: 60px;
+            text-align: center;
+
+        }
+        #title span{
+            font-family: "华文琥珀";
+            color: black;
+            font-size: 30px;
+        }
+        .pictures li{
+            margin-top: 50px;
+            list-style: none;
+            display: inline-block;
+            height: 403px;
+
+        }
+        .line1{
+			width:20px;
+			height: 20px;
+			background-color:transparent;
+			
+		}
+        .turn1{
+            background: url(./img/neymar.png) no-repeat 0px 0px;
+            padding-left: 233px;
+            
+        }
+        .turn2{
+            background: url(./img/kd.png) no-repeat 0px 0px;
+            padding-left: 233px;
+        }
+        .turn3{
+            background: url(./img/jay.png) no-repeat 0px 0px;
+            padding-left: 233px;
+        }
+        .turn4{
+            background: url(./img/suzy.png) no-repeat 0px 0px;
+            padding-left: 233px;
+        }
+        .turn1:hover{
+            background: url(img/neymar.png) no-repeat 0px -403px;
+        }
+        .turn2:hover{
+            background: url(img/kd.png) no-repeat 0px -403px;
+        }
+        .turn3:hover{
+            background: url(img/jay.png) no-repeat 0px -403px;
+        }
+        .turn4:hover{
+            background: url(img/suzy.png) no-repeat 0px -403px;
+        }
+        .box2{
+            width: 100%;
+            height: 60px;
+            background-color: aqua;
+            line-height: 60px;
+            margin-top: 30px;           
+        }
+        .names{
+            width: 100%;
+            height: 60px;
+            margin-left:100px ;
+        }
+        .names li{
+            display: inline-block;
+            line-height: 60px;
+        }
+        li a{
+            text-decoration: none;
+            font-size: 35px;
+        }
+        .line2{
+            width: 140px;
+        }
+        .tip{
+            width: 1050px;
+            height: 20px;
+            background-color:transparent;
+            line-height: 20px;
+            text-align: center;
+            margin-top: 20px;
+
+        }
+        .tip span{
+            color: black;
+            font: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+   <div id="bg">
+        <div id="title">
+           <span>黎多嘉先生的偶像</span> 
+        </div>
+        <div class="box1">
+            <ul class="pictures">
+                <li class="line1"></li>
+                <li class="turn1"></a></li>
+                <li class="line1"></li>
+                <li class="turn2"></a></li>
+                <li class="line1"></li>
+                <li class="turn3"></a></li>
+                <li class="line1"></li>
+                <li class="turn4"></a></li>
+            </ul>
+        </div>
+        <div class="box2">
+            <ul class="names">
+                <li><a href="neymar.html">内马尔</a></li>
+                <li class="line2"></li>
+                <li><a href="kd.html">杜兰特</a></li>
+                <li class="line2"></li>
+                <li><a href="jay.html">周杰伦</a></li>
+                <li class="line2"></li>
+                <li><a href="suzy.html">裴秀智</a></li>
+            </ul>
+        </div>
+        <div class="tip">
+            <span>tip:请点击人物名字查看人物详细信息</span>
+        </div>
+   </div> 
+</body>
+</html>
